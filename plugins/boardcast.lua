@@ -22,8 +22,8 @@ return {
 		"bc [id]: Send A Message To Target Group.",
 		},
   patterns = {
-    "^(broadcast) +(.+)$",
-    "^(bc) (%d+) (.*)$"
+    "^[#](broadcast) +(.+)$",
+    "^[#](bc) (%d+) (.*)$"
   },
   run = run
 }
