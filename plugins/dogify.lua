@@ -15,10 +15,10 @@ end
 return {
    description = "Create a doge image with you words",
    usage = {
-      "!dogify (your/words/with/slashes): Create a doge with the image and words"
+      "dogify (your/words/with/slashes): Create a doge with the image and words"
    },
    patterns = {
-      "^!dogify (.+)$",
+      "^dogify (.+)$",
    },
    run = run
 }
